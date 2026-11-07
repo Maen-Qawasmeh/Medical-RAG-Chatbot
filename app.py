@@ -57,8 +57,6 @@ def chat():
         (src["file"], src["page"]): src
         for src in sources
     }.values())
-
-    
     print("Retrieved Sources:", unique_sources)
 
     return jsonify({
